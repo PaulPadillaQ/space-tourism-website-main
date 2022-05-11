@@ -36,17 +36,17 @@ h1 {
 
 h2 {
   font-family: 'Bellefair', serif;
-  font-size: 100px;
+  font-size: calc(1000vw/144);
 }
 
 h3 {
   font-family: 'Bellefair', serif;
-  font-size: 56px;
+  font-size: calc(560vw/144);
 }
 
 h4 {
   font-family: 'Bellefair', serif;
-  font-size: 32px;
+  font-size: calc(320vw/144);
 }
 
 h5 {
@@ -61,18 +61,18 @@ h5 {
 
 .sub-heading1 {
   font-family: 'Bellefair', serif;
-  font-size: 28px;
+  font-size: calc(280vw/144);
 }
 
 .sub-heading2 {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 14px;
+  font-size: calc(140vw/144);
   letter-spacing: 2.35;
 }
 
 .nav-text {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 16px;
+  font-size: calc(160vw/144);
   letter-spacing: 2.7;
 }
 
@@ -80,7 +80,7 @@ h5 {
   display: inline-block;
   position: absolute;
   width: 830px;
-  height: 96px;
+  height: calc(96vh/9);
   top: 40px;
   right: 0;
   background-color: white;
