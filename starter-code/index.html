@@ -7,26 +7,38 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Barlow&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
 
   <div class="header">
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <div class="circle">
+      <div class="ecl" style="top: 50%; right: 50%;"></div>
+      <div class="ecl" style="top: 50%; left: 50%;"></div>
+      <div class="ecl" style="bottom: 50%; right: 50%;"></div>
+      <div class="ecl" style="bottom: 50%; left: 50%;"></div>
+    </div>
+    
+    <div class="transparent"> 
+      <div class="navbtn" style="border-bottom: medium solid white;"><a class="navnum">00</a> <a class="nav">HOME</a></div>
+      <div class="navbtn"><a class="navnum">01</a> <a class="nav">DESTINATION</a></div>
+      <div class="navbtn"><a class="navnum">02</a> <a class="nav">CREW</a></div>
+      <div class="navbtn"><a class="navnum">03</a> <a class="nav">TECHNOLOGY</a></div>
+    </div>
+
+    <div class="line"></div>
   </div>
+  
 <div class="greet">
-  <h5>So, you want to travel to</h5>
-  <h1>Space</h1>
-  <p>Let’s face it; if you want to go to space, you might as well genuinely go to
+  <h5>SO, YOU WANT TO TRAVEL TO</h5>
+  <h1>SPACE</h1>
+  <p style="line-height: calc(32vh/9);">Let’s face it; if you want to go to space, you might as well genuinely go to
   outer space and not hover kind of on the edge of it. Well sit back, and relax
   because we’ll give you a truly out of this world experience!</p>
 </div>
 
-  <button class="explore-btn" type="button" name="Explore">Explore</button>
+  <button class="explore-btn" type="button" name="Explore">EXPLORE</button>
 
 </body>
 </html>
