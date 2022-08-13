@@ -107,7 +107,7 @@ h5 {
   position: absolute;
   width: calc(13850vw/144);
   height: calc(96vh/9);
-  top: 40px;
+  top: calc(40vh/9);
   right: 0;
   /*filter: drop-shadow(0 5px 5px rgba(0,0,0,0.25));*/
   
